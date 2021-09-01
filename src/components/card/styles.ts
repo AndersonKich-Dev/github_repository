@@ -8,13 +8,6 @@ export const Container = styled.li`
     position: relative;
     width: 33.33%;
     flex-shrink: 0;
-`;
-
-export const Card = styled.div`
-    position: relative;
-    width: 100%;
-    height: 21vh;
-    padding: .75rem;
 
     @media only screen and (min-width: 720px) and (max-width: 1080px){
         width: 50%
@@ -23,13 +16,19 @@ export const Card = styled.div`
 
     @media only screen and (min-width: 480px) and (max-width: 720px){
         width: 50%;
-        height: 33%;
     }
 
     @media only screen and (min-width: 320px) and (max-width: 480px){
       width: 100%;
-      height: 25%;
     }
+`;
+
+export const Card = styled.div`
+    position: relative;
+    width: 100%;
+    height: 21vh;
+    padding: .75rem;
+   
 `;
 
 export const MarkGit = styled.a` 
@@ -201,20 +200,12 @@ export const Clipboard = styled.div`
 `;
 
 export const CardDetail = styled.li`
-    flex-shrink: 0;
     position: relative;
     width: 100%;
     height: calc(100vh - 35vh);
     margin-bottom: 2rem;
     padding: 3rem .75rem .75rem .75rem ;
 
-    @media only screen and (min-width: 720px) and (max-width: 1080px){
-        width: 50%
-    }
-
-    @media only screen and (min-width: 320px) and (max-width: 720px){
-        width: 100%; 
-    }
 `;
 
 export const SubCardDetail = styled.div`

@@ -7,7 +7,7 @@ export default function Footer() {
 
     return(
         <S.Container>
-            <p>Desenvolvido com  <FaHeart color='ff0000'/> por Anderson Kich</p>
+            <p>Built with Next - Styled Components -React icons - React Flip Move and more!</p>
         </S.Container>
     )
 }

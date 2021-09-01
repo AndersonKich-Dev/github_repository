@@ -63,7 +63,7 @@ export default function Home() {
         </S.SearchBtn>
        
         <input type='text'
-            placeholder='Search'
+            placeholder='Enter the github username'
             value = {userName}
             onChange={e => setUserName(e.target.value)}
         />  

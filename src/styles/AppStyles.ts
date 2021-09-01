@@ -57,6 +57,7 @@ export const SearchBox = styled.form`
         height: 100%;
         font-size: 1.2rem;
         font-family: 'Fira Code';
+        text-align: center;
         color:  ${props => props.theme.colors.text.var_gray};
         
 
